@@ -1,0 +1,123 @@
+* {
+  font-family: Arial;
+}
+.container {
+  padding: 0 50px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar span a {
+  margin-left: 20px;
+  background-color: #5d7791;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 0;
+  text-decoration: none;
+}
+.text {
+  font-size: 32px;
+}
+.box-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.box-1 .form {
+  width: 45%;
+  background-color: #d3d3d3;
+  padding: 25px;
+  border-radius: 20px;
+}
+.checkbox {
+  display: flex;
+}
+.checkbox div input {
+  margin: 8px 0;
+  margin-right: 8px;
+}
+.bor input {
+  width: 100%;
+  height: 4vh;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f3f3f3;
+}
+.bor textarea {
+  width: 100%;
+  height: 10vh;
+  border-radius: 5px;
+  padding-top: 50px;
+  border: none;
+    background-color: #f3f3f3;
+}
+.form button {
+  background-color: #5d7791;
+  color: white;
+  padding: 5px 40px;
+  border: none;
+  border-radius: 7px;
+}
+.box-1 .image img{
+border-radius: 5px;
+width: 700px;
+height: 550px;
+}
+.box-3{
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.learning{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+        font-weight: 600;
+}
+.learning li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.learning  a{
+    text-decoration: none;
+    color: black;
+}
+.box-3 hr{
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.subscribe{
+    width: 45%;
+    background-color: #5d7791;
+    color: white;
+    margin-right: 25px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.subscribe input{
+    width: 300px;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #d3dae1;
+    margin-right: 10px;
+} 
+.subscribe button{
+        height: 4vh;
+        border: none;
+        padding: 0 15px;
+        border-radius: 10px;
+        font-weight: 600;
+        background-color: white;
+}
