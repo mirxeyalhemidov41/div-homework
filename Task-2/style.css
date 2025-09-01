@@ -92,3 +92,12 @@ box-shadow: 0px 0px 15px 3px #debb73;
 .article a:hover{
   color: #667765;
 }
+.footer{
+  text-align: center;
+  background-color: #debb73;
+}
+.footer a{
+  text-decoration: none;
+  color: #AC8228;
+  font-size: 10px;
+}
