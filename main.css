@@ -24,6 +24,13 @@ body {
   font-weight: 600;
   color: #212529;
 }
+.modal_title button{
+    color: #7F7F7F;
+    transition: 0.1s;
+}
+.modal_title button:hover{
+    color: black;
+}
 .modal_title button {
   border: none;
   background-color: white;
@@ -47,14 +54,14 @@ body {
 }
 .modal .btn button:first-child {
   background-color: #6c757d;
-  transition: 0.5s;
+  transition: 0.1s;
 }
 .modal .btn button:first-child:hover {
   background-color: #575f65;
 }
 .modal .btn button:last-child {
   background-color: #1a6de1;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 .modal .btn button:last-child:hover {
   background-color: #0b5cd2;
