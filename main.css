@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.modal {
+  margin: 30px auto;
+  width: 500px;
+  border-radius: 10px;
+  background-color: white;
+}
+.modal_title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dee2e6;
+  padding: 20px;
+}
+.modal_title h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #212529;
+}
+.modal_title button {
+  border: none;
+  background-color: white;
+  font-size: 18px;
+}
+.modal p {
+  color: #212529;
+  font-size: 15px;
+  padding: 20px 20px 30px 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+.modal .btn {
+  padding: 20px 0;
+  padding-left: 324px;
+}
+.modal .btn button {
+  color: white;
+  border: none;
+  padding: 8px 9px;
+  border-radius: 5px;
+}
+.modal .btn button:first-child {
+  background-color: #6c757d;
+  transition: 0.5s;
+}
+.modal .btn button:first-child:hover {
+  background-color: #575f65;
+}
+.modal .btn button:last-child {
+  background-color: #1a6de1;
+  transition: 0.3s;
+}
+.modal .btn button:last-child:hover {
+  background-color: #0b5cd2;
+}
