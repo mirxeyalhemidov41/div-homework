@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto !important;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 30px;
+}
+.navbar .imagine {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.navbar .imagine span {
+  color: #007BFF;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+.navbar ul a {
+  transition: all 0.2s linear;
+}
+.navbar ul a:hover {
+  color: #4285F4;
+}
+.navbar i {
+  display: none;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 1.5rem;
+  }
+  .navbar {
+    width: 92%;
+    margin: 0 auto;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar i {
+    display: inline-block;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 1.5rem;
+  }
+  .navbar {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+.section1 {
+  margin-top: 50px;
+}
+.section1 .card {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 40px 10px;
+  position: relative;
+  min-height: 0vh;
+  transition: all 0.3s linear;
+  width: 92%;
+}
+.section1 .card i {
+  position: absolute;
+  left: calc(50% - 30px);
+  bottom: calc(100% - 30px);
+  width: 70px;
+  height: 70px;
+  background-color: #4285F4;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s linear;
+}
+.section1 .card h3 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  transition: all 0.3s linear;
+}
+.section1 .card p {
+  padding-block: 10px;
+  line-height: 24px;
+  color: #848487;
+  transition: all 0.3s linear;
+}
+.section1 .learn_more {
+  color: #4285F4;
+}
+.section1 .card:hover {
+  background-color: #4285F4;
+}
+.section1 .card:hover i {
+  background-color: white;
+  color: #4285F4;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.section1 .card:hover h3, .section1 .card:hover p, .section1 .card:hover a {
+  color: white;
+}/*# sourceMappingURL=main.css.map */
